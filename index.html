@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mersadenz-Benz</title>
+    <link rel="shortcut icon" type="images/x-icon" href="img/mers.jpg">
+    <link rel="stylesheet" href="position.css">
+</head>
+<body id="Idbody">
+    <div class="contener">
+      <from id="from">
+        <input type="color" id = 'color'>
+        <button onclick="myColor()">Color</button>
+    </from>
+    <div id="forma">
+    <from action="img/index.html" metood="get">
+      <lable for="text" >1 text</lable><br>
+      <input type="text" required id="text" placeholder="text"><br>
+      <lable for="number">2 Number</lable><br>
+      <input type="number"id="number" placeholder="number"><br>
+      <label for="date">3 Date</label><br>
+      <input type="date" id="date" placeholder="date"><br>
+      <label for="checkbox">4 checkbox</label><br>
+      <input type="checkbox" id="checkbox"><br>
+      <label for="radio">5 radio</label><br>
+      <input type="radio" id="radio" ><br>
+      <label for="datetime">6 datetime</label><br>
+      <input type="datetime" id="datetime"><br>
+      <lable for="datetime-local">7 datetime-local</lable><br>
+      <input type="datetime-local" id="datetime-local"><br>
+      <label for="colorinput">8 color</label><br>
+      <input type="color" id = "colorinput" onclick="inputColor()"><br>
+     
+      <lable for="email">9 email</lable><br>
+      <input type="email" id ="email"><br>
+      <label for="file">10 file</label><br>
+      <input type="file" id="file"><br>
+      <label for="hidden">11 hidden</label> <br>
+      <input type="hidden" id="hidden"><br>
+      <label for="image">12 image</label><br>
+      <input type="image" id =" image"><br>
+      <lable for="month">13 month</lable><br>
+      <input type="month" id="month"><br>
+      <label for="possword">14 possword</label><br>
+      <input type="password" id="possword" placeholder="possword"><br>
+      <label for="range">15 range</label><br>
+      <input type="range" id="range"><br>
+      <lable for="search">16 search</lable><br>
+      <input type="search" id="search"><br>
+      <lable for="tel">16 tel</lable><br>
+      <input type="tel" id="tel"><br>
+      <lable for="time">17 time</lable><br>
+      <input type="time" id="time"><br>
+      <lable for="url">18 url</lable><br>
+      <input type="url" id="url"><br>
+      <lable for="week">19 week</lable><br>
+      <input type="week" id="week"><br>
+
+      <button type="reset">Tozalash</button><br>
+      <button type="submit">Yuborish</button><br>
+
+    </from>
+
+    <div>
+      <iframe width="100%" height="500px" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+      </iframe><br>
+      <audio controls autoplay muted>
+        <source src="https://www.computerhope.com/jargon/m/example.mp3" type="audio/ogg">
+        <!-- <source src="https://mp3party.net/music/8820085" type="audio/mpeg"> -->
+      Your browser does not support the audio element.
+      </audio>
+
+      <audio src="https://mp3party.net/music/8820085"></audio>
+    </div>
+
+  </div>
+   <div class="Meb">
+       <h1>Mersadenz-Benz</h1>
+     <div class="Mas1"><img src="img/mers.jpg" alt=""></div>
+     <div class="Mas2"> <img src="img/mers.jpg" alt=""></div>
+
+   </div>
+
+<div class="black">
+   <div class="red"></div>
+   <div class="blue"></div>
+   <div class="gold"></div>
+   <div class="green"></div>
+</div>
+</div>
+
+      <script>
+        function myColor(){
+          let inputColotr = document.getElementById('color').value;
+          
+          let Idbody = document.getElementById('Idbody');
+
+          Idbody.style.backgroundColor = `${inputColotr}`;
+        }
+        function inputColor(){
+          let inputColotr = document.getElementById('colorinput').value;
+          
+          let Idbody = document.getElementById('forma');
+
+          Idbody.style.backgroundColor = `${inputColotr}`;
+        }
+      </script>
+</body>
+</html>
